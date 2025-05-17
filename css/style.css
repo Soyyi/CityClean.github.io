@@ -19,7 +19,14 @@ section{
     width: 80%;
     margin: auto;
 }
-
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+   img{
+    height: auto;
+    width: auto;
+    border-radius: auto;
+   }
+}
 .header-nav{
     
     display: flex;
