@@ -1,0 +1,220 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: oswald;
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    font-size: 1.srem;
+    color: rgb(0, 0, 0);
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+
+.header-nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    max-height: 10vh;
+    min-height: 10vh;
+}
+#logo{
+    flex: 1;
+    font-weight: bold;
+    font-family: oswald;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+.header-nav ul{
+    flex: 0.5;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav ul li{
+   list-style: None;
+}
+.header-nav ul li a{
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    stroke-width: 8;
+}
+#home-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+.home-nav{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+.home-left{
+    flex: 1;
+}
+.home-left h2{
+ color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 4rem;
+    
+}
+  
+.home-left h3{
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.home-left h4{
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.home-left p{
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.home-left button{
+    color: aliceblue;
+    background-color: blue;
+    border: none;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.home-left button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.home-right img{
+    height: 50rem;
+    width: 50rem;
+    border-radius: 2rem;
+}
+.body-nav{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+.body-left{
+    flex: 1;
+}
+.body-left h2{
+ color: rgb(8, 0, 255);
+    letter-spacing: 1px;
+    font-size: 4rem;
+    
+}
+  
+.body-left h3{
+    color: rgb(13, 0, 255);
+    letter-spacing: 1px;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.body-left p{
+    color: rgb(4, 0, 255);
+    letter-spacing: 1px;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.body-left button{
+    color: aliceblue;
+    background-color: blue;
+    border: none;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.body-left button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.body-right img{
+    height: 50rem;
+    width: 50rem;
+    border-radius: 2rem;
+}
+#title-section{
+    color: rgb(0, 17, 255);
+    letter-spacing: 0.5px;
+    font-size: 3rem;
+    text-align: center;
+}
+#sub-title-section{
+    color: rgb(13, 0, 255);
+    letter-spacing: 0.5px;
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.sermon{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card-sermon{
+   width: 90%;
+   height: 20rem;
+}
+.card-sermon img{
+    width: 35rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+.card-sermon p{
+   font-size: 2rem;
+   font-weight: bold;
+   font-family: oswald;
+   margin-top: 1rem;
+}
+.card-sermon h5{
+   font-size: 1.8rem;
+   font-weight: bold;
+   
+}
+.card-sermon h6{
+   font-size: 1.8rem;
+   font-weight: bold;
+}
+.card-sermon button{
+    color: aliceblue;
+    background-color: blue;
+    border: none;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.card-sermon button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
